@@ -6,11 +6,12 @@
 
 body {
   text-align: center;
+  color: #350b40;
 }
 
 h1 {
-  font-family: Futura;
-  font-size: 23px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5em;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -19,27 +20,35 @@ h1 {
   padding-top: 100px
 }
 
+h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
 p {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-style: italic;
   font-variant: normal;
   font-weight: 100;
   line-height: 20px;
+  padding-top: 20px;
+}
+
+.spandev {
+  text-decoration: underline;
 }
 
 .top_container {
   /* height: 33.33vh; */
+  position: relative;
   background-color: #dddddd;
 }
 
-.middle_container {
-  height: 200px;
+.middle-container {
   background-color: #f7d9d9;
 }
 
-.bottom_container {
-  height: 200px;
+.bottom-container {
   background-color: #f25287;
 }
 
@@ -51,4 +60,6 @@ p {
 
 .bottom_cloud {
   position: absolute;
+  left: 400px;
+  bottom: 300px;
 }
