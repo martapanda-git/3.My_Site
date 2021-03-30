@@ -35,7 +35,7 @@ p {
   font-style: italic;
   font-variant: normal;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 2;
   padding-top: 20px;
 }
 
@@ -54,6 +54,11 @@ p {
 }
 
 .profile p {
+  width: 30%;
+  margin: 0 auto 30px auto;
+}
+
+.contact-message {
   width: 30%;
   margin: 0 auto 30px auto;
 }
@@ -109,7 +114,7 @@ hr {
   border: none;
   border-top: 5px dotted #ad6c80;
   width: 5%;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .btn {
@@ -122,6 +127,11 @@ hr {
   padding: 10px;
   margin: 20px 20px 60px 20px;
   border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ee99a0;
 }
 
 .footer-link {
@@ -131,6 +141,11 @@ hr {
   font-size: 1.5em;
   margin: 60px 20px 60px 20px;
   line-height: 5;
+  transition: 0.5s;
+}
+
+.footer-link:hover {
+  color: #dddddd;
 }
 
 .bottom-container p {
