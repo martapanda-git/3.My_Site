@@ -29,7 +29,7 @@ p {
   font-size: 1rem;
   font-style: italic;
   font-variant: normal;
-  font-weight: 100;
+  font-weight: normal;
   line-height: 20px;
   padding-top: 20px;
 }
@@ -62,4 +62,8 @@ p {
   position: absolute;
   left: 400px;
   bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
 }
